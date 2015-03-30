@@ -1,0 +1,38 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+.masthead{
+  padding-top: 4em;
+  padding-bottom: .1em;
+background-image:  url("../images/treelogo.svg"), url("../images/masthead-bg.png");
+background-size: 75px auto, 200px auto;
+background-repeat: no-repeat, repeat;
+background-position: center 10px, left top;
+text-align: center;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+.box{
+  background-color: #3B3A33;
+  padding: 1em;
+  text-align: center;
+}
+
+.btn{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+background-color: #A8AE98;
+background-image: linear-gradient( to bottom, #A8AE98, #5B5E52 );
+}
